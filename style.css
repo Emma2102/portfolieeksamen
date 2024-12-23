@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "beckan-personal_use";
+  src: url("mine_fonte/beckan-personal_use-webfont.woff2") format("woof2");
+}
+
+h1 {
+  font-family: beckan-personal_use, serif;
+}
+
+h2 {
+  font-family: sometimes, serif;
+}
