@@ -10,3 +10,75 @@ h1 {
 h2 {
   font-family: sometimes, serif;
 }
+
+body {
+  background-color: #eae3db;
+}
+
+header {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #eae3db;
+  border: #5f3f39;
+}
+
+.logo img {
+  width: 30%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #5f3f39;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  font-family: sometimes, serif;
+}
+
+.menu a:hover {
+  color: #d36752;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #eae3db;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
