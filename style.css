@@ -5,14 +5,22 @@
 
 h1 {
   font-family: beckan-personal_use, serif;
+  color: #5f3f39;
 }
 
 h2 {
   font-family: sometimes, serif;
+  color: #5f3f39;
+  font-size: 40px;
 }
 
 body {
   background-color: #eae3db;
+  margin: 50px;
+}
+
+p {
+  color: #5f3f39;
 }
 
 /*************** Menu ****************/
@@ -23,6 +31,7 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #eae3db;
+  margin: 10px;
 }
 
 header .logo a {
@@ -92,7 +101,7 @@ header {
   align-items: center;
   padding: 1rem;
   background-color: #eae3db;
-  border: #5f3f39;
+  border: solid #5f3f39;
 }
 
 .logo img {
