@@ -1,15 +1,12 @@
-@font-face {
-  font-family: "beckan-personal_use";
-  src: url("mine_fonte/beckan-personal_use-webfont.woff2") format("woof2");
-}
-
 h1 {
-  font-family: beckan-personal_use, serif;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: italic;
   color: #5f3f39;
 }
 
 h2 {
-  font-family: sometimes, serif;
+  font-family: "Taviraj", serif;
   color: #5f3f39;
   font-size: 40px;
 }
@@ -20,6 +17,7 @@ body {
 }
 
 p {
+  font-family: Rufina;
   color: #5f3f39;
 }
 

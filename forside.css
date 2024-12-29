@@ -9,15 +9,29 @@
   padding-bottom: 50px; /* Justerer afstanden mellem tekst og linje */
 }
 
-.forsidebillede {
-  display: flex;
-  height: auto;
+.knapper {
   align-content: center;
   margin-top: 50px;
 }
 
 @media (max-width: 1100px) {
-  .forsidebillede {
-    width: 375px;
-  }
+}
+
+button {
+  background-color: #5f3f39;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+  color: #eae3db;
+  padding: 0.7rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  margin: 10px;
+  border-width: 0;
+}
+
+button:hover {
+  background-color: #d36752;
+  transition: background-color 0.3s;
 }
