@@ -11,9 +11,12 @@ h2 {
   font-size: 40px;
 }
 
+main {
+  margin: 100px;
+}
+
 body {
   background-color: #eae3db;
-  margin: 50px;
 }
 
 p {
