@@ -1,5 +1,5 @@
 #forsidetekst {
-  text-align: right;
+  text-align: start;
   margin-top: 50px;
 }
 
@@ -37,11 +37,11 @@ button:hover {
   transition: background-color 0.3s;
 }
 
-.navn {
-  font-size: 70px;
-  margin-left: 50px;
+.af {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
-.gundorf {
-  margin-left: 150px;
+.tekst {
 }
