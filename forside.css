@@ -1,34 +1,53 @@
 #forsidetekst {
   text-align: start;
+  font-size: 50px;
   margin-top: 50px;
+  margin-left: 60pxpx;
+  margin: 50px;
 }
 
 .underline {
   border-bottom: 1.5px solid #5f3f39; /* Stregens tykkelse, farve og stil */
   margin-bottom: 10px; /* Justerer afstanden under linjen */
   padding-bottom: 50px; /* Justerer afstanden mellem tekst og linje */
+  margin-right: 50px;
 }
 
 .knapper {
   display: flex;
-  justify-content: end;
-  margin-right: 100px;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
 }
 
 @media (max-width: 1100px) {
+  .grid_1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .art {
+    margin-left: 0;
+  }
 }
 
 button {
   background-color: #5f3f39;
-  font-family: "Playfair Display SC", serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 20px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
   color: #eae3db;
   padding: 0.7rem;
   border-radius: 3rem;
   cursor: pointer;
-  margin: 10px;
+  margin: 20px;
   border-width: 0;
 }
 
@@ -39,9 +58,16 @@ button:hover {
 
 .af {
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 
 .tekst {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.art {
+  width: 60%;
+  margin-left: 150px;
 }
