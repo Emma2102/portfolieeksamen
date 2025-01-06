@@ -65,9 +65,9 @@ button:hover {
 }
 
 #underline {
-  border-bottom: 1.5px solid #5f3f39; /* Stregens tykkelse, farve og stil */
-  margin-bottom: 10px; /* Justerer afstanden under linjen */
-  padding-bottom: 50px; /* Justerer afstanden mellem tekst og linje */
+  border-bottom: 1.5px solid #5f3f39;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 h2 {
@@ -93,5 +93,10 @@ h2 {
 
   button {
     margin-left: 170px;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
   }
 }

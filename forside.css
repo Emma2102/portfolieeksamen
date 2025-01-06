@@ -32,8 +32,21 @@
     align-items: center;
   }
 
-  .art {
-    margin-left: 0;
+  .art img {
+    width: 300px;
+    display: flex;
+    margin-right: 400px;
+    margin-top: 50px;
+  }
+
+  .knapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .af {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -67,7 +80,8 @@ button:hover {
   margin-left: 50px;
 }
 
-.art {
-  width: 60%;
+.art img {
+  max-width: 100%;
+  height: auto;
   margin-left: 150px;
 }
