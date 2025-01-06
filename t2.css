@@ -54,7 +54,8 @@ button {
   background-color: transparent;
   text-align: center;
   transition: all 0.3s ease;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 button:hover {
@@ -67,6 +68,10 @@ button:hover {
   border-bottom: 1.5px solid #5f3f39; /* Stregens tykkelse, farve og stil */
   margin-bottom: 10px; /* Justerer afstanden under linjen */
   padding-bottom: 50px; /* Justerer afstanden mellem tekst og linje */
+}
+
+h2 {
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 1000px) {
