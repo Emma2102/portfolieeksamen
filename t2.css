@@ -73,6 +73,37 @@ button {
   margin-top: 20px;
 }
 
+.gåvidere {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-family: "Taviraj", serif;
+  text-decoration: none;
+  border: 2px solid #603a2b;
+  background-color: transparent;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-left: 700px;
+  margin-top: 20px;
+}
+
+.gåvidere:hover {
+  color: #d36752;
+  border: 2px solid #d36752;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #603a2b;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #d36752;
+  cursor: pointer;
+}
+
 button:hover {
   color: #d36752;
   border: 2px solid #d36752;
@@ -142,5 +173,9 @@ video {
 
   .tekst {
     order: 1;
+  }
+
+  .gåvidere {
+    margin-left: 190px;
   }
 }
