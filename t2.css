@@ -43,7 +43,7 @@ img {
   border-radius: 0;
 }
 
-button {
+.button {
   display: inline-block;
   padding: 5px 10px;
   font-size: 20px;
@@ -104,16 +104,10 @@ a:hover {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #d36752;
   border: 2px solid #d36752;
   cursor: pointer;
-}
-
-#underline {
-  border-bottom: 1.5px solid #5f3f39;
-  margin-bottom: 10px;
-  padding-bottom: 50px;
 }
 
 h2 {

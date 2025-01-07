@@ -68,7 +68,7 @@
   }
 }
 
-button {
+.button {
   background-color: #5f3f39;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400;
@@ -82,9 +82,19 @@ button {
   border-width: 0;
 }
 
-button:hover {
+.button:hover {
   background-color: #d36752;
   transition: background-color 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: #603a2b;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .af {
