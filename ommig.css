@@ -1,0 +1,50 @@
+#overskrift {
+  display: flex;
+  font-size: 80px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.underline {
+  border-bottom: 1.5px solid #5f3f39;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+.underline2 {
+  border-bottom: 1.5px solid #5f3f39;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+
+#sideline {
+  border-left: 1.5px solid #5f3f39;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+}
+
+.img1 {
+  margin-top: 50px;
+  margin-left: 102px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.tekst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
