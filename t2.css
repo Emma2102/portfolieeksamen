@@ -74,6 +74,14 @@ h2 {
   margin-left: 10px;
 }
 
+video {
+  width: 500px;
+  height: auto;
+  margin-left: 130px;
+  border: 5px solid #9d8680;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 1000px) {
   .grid_1-1 {
     display: flex;

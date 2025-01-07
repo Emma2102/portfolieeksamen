@@ -2,7 +2,7 @@
   text-align: start;
   font-size: 50px;
   margin-top: 50px;
-  margin-left: 60pxpx;
+  margin-left: 60px;
   margin: 50px;
 }
 
@@ -45,6 +45,23 @@
   }
 
   .af {
+    display: flex;
+    justify-content: center;
+  }
+
+  #forsidetekst {
+    text-align: center;
+  }
+
+  .tekst {
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .af {
+    margin-left: 0;
     display: flex;
     justify-content: center;
   }
