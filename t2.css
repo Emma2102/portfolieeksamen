@@ -108,6 +108,7 @@ video {
     margin-left: 0;
     margin-right: 7px;
     margin-top: 10px;
+    order: 2;
   }
 
   #overskrift {
@@ -137,5 +138,9 @@ video {
   .storknap {
     margin-left: 130px;
     margin-bottom: 30px;
+  }
+
+  .tekst {
+    order: 1;
   }
 }

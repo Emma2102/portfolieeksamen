@@ -110,7 +110,7 @@ a {
 
 #overskrift {
   display: flex;
-  font-size: 100px;
+  font-size: 80px;
   justify-content: center;
   margin-top: 30px;
 }
@@ -152,20 +152,17 @@ button:hover {
     margin: 10px 0;
     justify-content: center;
     display: flex;
+    order: 1;
   }
 
   /* .klikboks {
 
   } */
 
-  .order {
-    display: grid;
-    order: -1;
-  }
-
   .box,
   .box2 {
     margin: 20px;
+    order: 2;
   }
 
   #overskrift {
